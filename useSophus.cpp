@@ -12,6 +12,7 @@ using namespace Eigen;
 int main(int argc, char **argv) {
 
     //代码不是原创，是@gaoxiang12书里的，仅作学习git而存
+    //刚刚的修改好像不奏效？我有点困了，发完这个就睡觉了
   // 沿Z轴转90度的旋转矩阵
   Matrix3d R = AngleAxisd(M_PI / 2, Vector3d(0, 0, 1)).toRotationMatrix();
   // 或者四元数
